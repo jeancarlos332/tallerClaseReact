@@ -230,11 +230,10 @@ const Main = () => {
                                         </tr>
                                     </tbody>
                                 </table>
-
                             ))
                         }
                     </ul>
-                    
+
                 </div>
                 <div className='col-3'>
                     <h4 className='text-center'>
