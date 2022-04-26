@@ -283,7 +283,6 @@ const Main = () => {
                             onChange={(e) => setDificultad(e.target.value)}
                             value={dificultad}
                         />
-
                         {
                             modoEdicion ?
                                 (
