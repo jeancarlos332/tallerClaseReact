@@ -8,7 +8,7 @@ const Main = () => {
     const [tiempo_estudio, setTiempoEstudio] = React.useState('')
     const [materias, setMaterias] = React.useState('')
     const [dificultad, setDificultad] = React.useState([])
-    const [imagenAleatoria, setImagenAleatoria] = React.useState([])
+    const [imagenAleatoria] = React.useState([])
     const [listaCarreras, setListaCarreras] = React.useState([])
     const [id, setId] = React.useState('')
     const [modoEdicion, setModoEdicion] = React.useState(false)
@@ -212,12 +212,12 @@ const Main = () => {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td scope="row-4">{item.carrera}</td>
-                                            <td scope="row-4"> {item.descripcion}</td>
-                                            <td scope="row-4">{item.tiempo_estudio}</td>
-                                            <td scope="row-4">{item.materias}</td>
-                                            <td scope="row-4">{item.dificultad}</td>
-                                            <td scope="row-4"><img
+                                            <td className="row-4">{item.carrera}</td>
+                                            <td className="row-4"> {item.descripcion}</td>
+                                            <td className="row-4">{item.tiempo_estudio}</td>
+                                            <td className="row-4">{item.materias}</td>
+                                            <td className="row-4">{item.dificultad}</td>
+                                            <td className="row-4"><img
                                                 alt={item.carrera}
                                                 src={`https://picsum.photos/200/200?random&t=${item.id}`}
                                             /></td>
