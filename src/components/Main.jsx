@@ -231,7 +231,7 @@ const Main = () => {
                                     </tbody>
                                 </table>
 
-                                
+
                             ))
                         }
                     </ul>
