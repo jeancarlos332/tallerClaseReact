@@ -305,11 +305,12 @@ const Main = () => {
                                 >Agregar</button>
 
                         }
+                        
                     </form>
                 </div>
             </div>
         </div>
-        
+
     )
 }
 
